@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add React in One Minute</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="top-area"></div>
+      <div class="bottom-area">
+        <div class="profile-image">Zzzwa's</div>
+        <div class="profile-info">
+          <h3 class="name">Zzzwa hoony's</h3>
+          <h5 class="id">@zzzwa_hoony</h5>
+          <p>누구나 프론트엔드 개발자가 될 수 있어요!</p>
+        </div>
+
+        <!-- 1단계: HTML 파일에 DOM 컨테이너 설치 -->
+        <!-- We will put our React component inside this div. -->
+        <div id="follow_button_container"></div>
+      </div>
+    </div>
+
+    <!-- 2단계: 스크립트 태그 추가하기 -->
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+
+    <!-- 만든 React 컴포넌트를 실행. -->
+    <!-- Load our React component. -->
+    <script src="follow_button.js"></script>
+  </body>
+</html>
