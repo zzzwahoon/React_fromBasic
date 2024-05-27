@@ -2,8 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const message = 'Learn React';
+
+  const getGreetingMessage = (name) => {
+    if (name === 'Zzzwa') return `Hello, ${name}! Learn React`;
+    return `Welcome, ${name}! Learn React`;
+  };
+  
   return (
-    <div className="App">
+    <div className="App" tabIndex={0}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -15,9 +22,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {getGreetingMessage('Zero')}
         </a>
       </header>
+      <input type="checkbox" name="agreement" id="agreement-el" />
+      <label htmlFor="agreement-el">I agree</label>
     </div>
   );
 }
