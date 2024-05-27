@@ -21,7 +21,7 @@ function FollowButton() {
   };
   const followBtnStyle = {
     ...commonBtnStyle,
-    backgroundColor: "black",
+    backgroundColor: "blue",
     color: "white"
   };
   const follwingBtnStyle = {
