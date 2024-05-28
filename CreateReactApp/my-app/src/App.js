@@ -1,19 +1,13 @@
 import './App.css';
-import Header from './components/Header';
-import Welcome from './components/Welcome';
+import Counter from './components/Counter';
+
 
 function App() {
-  const info = {
-    firstName: 'Jwahoon',
-    lastName: 'Kim',
-    withImg: true,
-  }
   return (
-    <div className="App">
-      <Header title={'Learn React A'} />
-      <Welcome {...info}/>
+    <div class="App">
+      <Counter />
     </div>
-  );
+  )
 }
 
 export default App;
