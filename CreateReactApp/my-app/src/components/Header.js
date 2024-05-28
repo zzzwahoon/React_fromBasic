@@ -1,12 +1,9 @@
 import React from 'react'
 import logo from '../logo.svg';
 
-
-export default function Header() {
-  const name = 'Zzzwa';
-  const count = 0;
-  const memo = '';
-
+const Header = (props) => {
+  // props: object(객체)
+  // props를 다룰 때는 반드시 순수 함수처럼 동작해야 한다.
   return (
     <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,16 +16,10 @@ export default function Header() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          
-          {name === 'Zzzwa' 
-            ? `Hello, ${name}! Learn React` 
-            : `Welcome, ${name}! Learn React`}
-          
-          <div>{!!count && <h1>Message: {count}</h1>}</div> 
+        {props.title}
         </a>
-        {memo !== null && `memo: ${memo}`}
     </header>
   )
 }
 
-
+export default Header
