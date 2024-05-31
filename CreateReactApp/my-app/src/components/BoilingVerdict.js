@@ -14,4 +14,6 @@ export default function BoilingVerdict(props) {
     return <p>The water would boil.</p>;
   }
   return <p>The water would not boil.</p>;
+
+  
 }

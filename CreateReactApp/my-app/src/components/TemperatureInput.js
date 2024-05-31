@@ -28,5 +28,6 @@ export default function TemperatureInput(props) {
         temperature={parseFloat(props.temperature)}
       />
     </fieldset>
+    
   );
 }
