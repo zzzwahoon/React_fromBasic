@@ -3,6 +3,7 @@ import './App.css';
 import Counter2 from './components/Counter2';
 import Calculator from './components/Calculator';
 import Clock from './components/classClock';
+import FunctionClock from './components/FunctionClock';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Calculator />
       <br /><hr /><br />
       <Clock />
+      <br /><hr /><br />
+      <FunctionClock />
     </div>
   )
 }
