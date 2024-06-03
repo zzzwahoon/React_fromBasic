@@ -59,7 +59,7 @@ export default function App() {
   }, []);
 
   const result = pickedCards.map((pickedCard) => (
-    <BusinessCard info={pickedCard} />
+    <BusinessCard info={pickedCard} key={pickedCard.phoneNumber} />
   ));
 
   return (
