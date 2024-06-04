@@ -6,6 +6,7 @@ import Clock from './components/classClock';
 import FunctionClock from './components/FunctionClock';
 import Banner from './components/Banner';
 import Toggle from './components/toggle';
+import SimpleForm from './components/SimpleForm';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
       <hr />
       <br />
       <Toggle />
+      <br />
+      <hr />
+      <br />
+      <SimpleForm />
     </div>
   );
 }
