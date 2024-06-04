@@ -10,6 +10,7 @@ import SimpleForm from './components/SimpleForm';
 import UnControlledForm from './components/UnControlledForm';
 import Cat from './components/Cat';
 import CatParent from './components/CatParent';
+import ToDoList from './components/ToDoList';
 
 function App() {
   return (
@@ -47,6 +48,10 @@ function App() {
       <hr />
       <br />
       <CatParent />
+      <br />
+      <hr />
+      <br />
+      <ToDoList />
     </div>
   );
 }

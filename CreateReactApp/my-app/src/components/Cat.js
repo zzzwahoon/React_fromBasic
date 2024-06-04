@@ -18,7 +18,7 @@ const Cat = forwardRef((props, ref) => {
         style={{ width: '150px' }}
         ref={loaded ? ref : () => undefined}
         onLoad={() => {
-          alert('loaded');
+          // alert('loaded');
           setLoaded(true);
         }}
       ></img>
