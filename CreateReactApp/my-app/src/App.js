@@ -5,6 +5,7 @@ import Calculator from './components/Calculator';
 import Clock from './components/classClock';
 import FunctionClock from './components/FunctionClock';
 import Banner from './components/Banner';
+import Toggle from './components/toggle';
 
 function App() {
   return (
@@ -26,6 +27,10 @@ function App() {
       <hr />
       <br />
       <Banner />
+      <br />
+      <hr />
+      <br />
+      <Toggle />
     </div>
   );
 }
