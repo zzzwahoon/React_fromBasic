@@ -10,6 +10,7 @@ export default function () {
   function handleSubmit(e) {
     e.preventDefault();
     alert(inputRef.current.value);
+    inputRef.current.focus();
   }
 
   return (
