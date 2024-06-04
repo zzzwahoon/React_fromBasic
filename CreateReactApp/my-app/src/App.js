@@ -7,6 +7,7 @@ import FunctionClock from './components/FunctionClock';
 import Banner from './components/Banner';
 import Toggle from './components/toggle';
 import SimpleForm from './components/SimpleForm';
+import UnControlledForm from './components/UnControlledForm';
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
       <hr />
       <br />
       <SimpleForm />
+      <br />
+      <hr />
+      <br />
+      <UnControlledForm />
     </div>
   );
 }
